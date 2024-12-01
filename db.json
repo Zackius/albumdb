@@ -1,14 +1,15 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+    "users": [
+      { "id": 1, "name": "Zack", "username": "zackius"},
+      { "id": 2, "name": "James", "username": "jymo" },
+    ],
+    "albums": [
+      { "id": 1, "userId": 1, "albumTitle": "Mount Kenya" },
+      { "id": 2, "userId": 2, "albumTitle": "Bro's Wedding"}
+    ],
+    "photos": [
+     { "albumId": 1, "photoTitle" "Mount Kenya from a far", "imageUrl": "https://images.app.goo.gl/F1usjTd3C324Hru79"},
+       { "albumId": 2, "photoTitle" "Love in the air", "imageUrl": "https://images.app.goo.gl/17MoruL4izb3ahWx6"}
+      
+    ]
   }
-}
