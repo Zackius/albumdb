@@ -3,12 +3,14 @@
         {
             "id": 1,
             "name": "Zack",
-            "username": "zackius"
+            "username": "zackius",
+            "email": "ndunguzachary24@gmail.com"
         },
         {
             "id": 2,
             "name": "James",
-            "username": "jymo"
+            "username": "jymo",
+            "email": "jamo@gmail.com"
         }
     ],
     "albums": [
